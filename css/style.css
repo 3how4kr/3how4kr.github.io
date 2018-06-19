@@ -103,7 +103,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #fff;
-    background-color: #8B81C3;
+    background-color: #5f4b8b;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #FFF;
@@ -111,7 +111,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 .navbar-default .navbar-nav > li>a:hover {
     color: #fff;
-    background: #8B81C3;
+    background: #5f4b8b;
 }
 nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     padding: 1em 10em;
@@ -382,8 +382,8 @@ a.w3_agile_vimeo:hover{
     background: none;
 }
 .w3ls_more, .w3l_contact:hover {
-    border: 2px solid #8B81C3;
-    background: #8B81C3;
+    border: 2px solid #5f4b8b;
+    background: #5f4b8b;
     color: #ffffff !important;
 }
 .w3ls_more:focus{
@@ -462,7 +462,7 @@ ul.address li ul.agileits-address-text li {
 .wthree span{
 	font-weight:bold;
     font-size: 32px;
-    color: #8B81C3;
+    color: #5f4b8b;
 }
 .modal .about {
     border-top: 1px solid;
@@ -500,7 +500,7 @@ ul.address li ul.agileits-address-text li {
 }
 b, strong {
     font-weight: bold;
-    color: #8B81C3;
+    color: #5f4b8b;
 }
 .about-modal.wthree {
     padding: 2em 4em;
@@ -747,7 +747,7 @@ b, strong {
 .education-agile-w3l-year {
     width: 30%;
     float: left;
-    border: 1px solid #8B81C3;
+    border: 1px solid #5f4b8b;
     border-bottom: transparent;
     padding: 4.64em 2em;
 }
@@ -755,11 +755,11 @@ b, strong {
     width: 70%;
     float: left;
     padding: 2em 2em;
-    border-top: 1px solid #8B81C3;
-    border-right: 1px solid #8B81C3;
+    border-top: 1px solid #5f4b8b;
+    border-right: 1px solid #5f4b8b;
 }
 .last {
-    border-bottom: 1px solid #8B81C3;
+    border-bottom: 1px solid #5f4b8b;
 }
 .education-agile-w3l-year h4,.education-agile-w3l-info  h4 {
     font-size: 25px;
@@ -788,7 +788,7 @@ h3.w3l_head.three {
 i.fa.fa-hourglass-end {
     font-size: 210px;
     margin-top: 2em;
-    color: #8B81C3;
+    color: #5f4b8b;
 }
 .middle {
     text-align: center;
@@ -962,7 +962,7 @@ i.fa.fa-hourglass-end {
 		}
 
 		.tabs-style-bar nav ul li.tab-current a {
-			background: #8B81C3;
+			background: #5f4b8b;
 			color: #fff;
 		}
 
@@ -1136,8 +1136,8 @@ i.fa.fa-hourglass-end {
 }
 span.glyphicon {
     color: #FFF;
-    background: #8B81C3;
-    border: 1px solid #8B81C3;
+    background: #5f4b8b;
+    border: 1px solid #5f4b8b;
     padding: 18px;
     text-align: center;
     border-radius: 50%;
@@ -1154,8 +1154,8 @@ span.glyphicon {
 }
 span.glyphicon:hover {
     background: #fff;
-    color: #8B81C3;
-    border: 1px solid #8B81C3;
+    color: #5f4b8b;
+    border: 1px solid #5f4b8b;
 }
 .contactright1 {
     margin-bottom: 3em;
@@ -1186,7 +1186,7 @@ span.glyphicon:hover {
     border: none;
     outline: none;
     color: #fff;
-    background: #8B81C3;
+    background: #5f4b8b;
     font-size: 16px;
     padding: 10px 40px;
 }
@@ -1265,7 +1265,7 @@ iframe {
     text-transform: uppercase;
 }
 .copyright-agile a {
-    color: #8B81C3;
+    color: #5f4b8b;
 }
 .copyright-agile a:hover{
     color: #fff;
@@ -1532,7 +1532,7 @@ iframe {
 	}
 	.navbar-toggle {
 		border-radius: 0px;
-		background: #8B81C3;
+		background: #5f4b8b;
 		margin-right: 0;
 	}
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -1733,7 +1733,7 @@ iframe {
 		padding: 2em;
 	}
 	.education-agile-w3l-info {
-		border-left: 1px solid #8B81C3;
+		border-left: 1px solid #5f4b8b;
 	}
 	.gallery-top figure.effect-bubba h4 {
 		padding-top: 2%;
