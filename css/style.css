@@ -24,8 +24,8 @@ ul,label{
 	padding:0;
 }
 body a:hover{
-	text-decoration: none;
-	color: #FFFFFF;
+	color: #404878;
+	text-shadow: 0px 0px #6B4F4F;
 }
 input[type="submit"],input[type="reset"],a{
 	-webkit-transition: 0.5s ease-in;
