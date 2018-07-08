@@ -1,255 +1,1098 @@
-﻿<!doctype html>
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
 <title>【孟美岐】点开链接收获爱情 | 美孟有你 未来可岐</title>
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="My Design Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
 
-<script src="js/light.js"></script>
+<!-- Portfolio-CSS -->	<link rel="stylesheet" href="css/swipebox.css" type="text/css" media="all">
+		
+<link href="css/aos.css" rel="stylesheet" type="text/css" media="all" /><!-- //animation effects-css-->
 
-<style>
-body {
-  height: 100vh;
-  box-sizing: border-box;
-  background: #333;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  overflow-y: hidden;
-}
-body p{
-  color: #555;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 900;
-}
-body p i{
-  transition: .5s;
-}
-.fa-codepen{
-   -webkit-animation: fade 3s infinite alternate;
-  -moz-animation: fade 3s infinite alternate;
-  -o-animation: fade 3s infinite alternate;
-  animation: fade 3s infinite alternate;
-}
-a{
-  color: #ddd;
-}
-span {
-  font-size: 6em;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 500;
-  color: #ddd;
-  transition: .25s;
-}
-.pink {
-  position: absolute;
-  text-shadow: 
-    2px 2px 1px rgba(0,0,0,.4),
-    0 0 20px #fe3a80,
-    0 0 40px rgba(255, 0, 91, .75),
-    0 0 50px rgba(255, 0, 91, .75),
-    0 0 100px rgba(255, 0, 91, .75);
+<link rel="stylesheet" href="css/index.css"><!-- votevote bars CSS-->
+
+
+<!-- custom-theme -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //custom-theme -->
+	  
+<!-- font-awesome-icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome-icons -->
+
+
+<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+		
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+ <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+ <!--
+ 	出道css
+ -->
  
-}
-.pink:before{
-  content:'';
-  position: absolute;
-  background: rgba(254, 58, 128, .25);
-  z-index: -1;
-  opacity: .7;
-  filter: blur(50px);
-  width: 100%;
-  height: 100%;
-}
-.green {
-  position: absolute;
-   text-shadow: 2px 2px 1px rgba(0,0,0,.4),
-    0 0 20px #5f4b8b,
-    0 0 40px rgba(39, 0, 230, .75),
-    0 0 50px rgba(39, 0, 230, .75),
-    0 0 100px rgba(39, 0, 230, .75);
- 
-  
-}
-.green:before{
-  content:'';
-  position: absolute;
-  background: rgba(101,0,230, .25);
-  z-index: -1;
-  opacity: .7;
-  filter: blur(30px);
-  width: 100%;
-  height: 100%;
-}
-.blue {
-  position: absolute;
-  text-shadow: 
-  2px 2px 1px rgba(0,0,0,.4),
-  0 0 20px #42A5F5,  
-  0 0 40px rgba(33, 150, 243, .75),
-  0 0 50px rgba(33, 150, 243, .75),
-  0 0 60px rgba(33, 150, 243, .75);
- 
-}
-.blue:before{
-  content:'';
-  position: absolute;
-  background: rgba(66, 165, 245, .25);
-  z-index: -1;
-  opacity: .7;
-  filter: blur(30px);
-  width: 100%;
-  height: 100%;
-}
-.buttons{
-  margin-bottom: auto;
-  margin-top: 20px;
-}
-button{
-  margin: 0 5px;
-  padding: 10px;
-  letter-spacing: 1px;
-  background: none;
-  border: 2px solid #444;
-  height: 2.25em;
-  border-radius: 2.25em;
-  color: #444;
-  font-size: 1.25em;
-  font-weight: bold;
-  text-transform: uppercase;
-  transition: .5s;
-  outline: none;
-}
-button:nth-child(1):hover{
-  /*Green*/
-  color: #5d2afa;
-  text-shadow: 0 0 7px #5d2afa;
-  border-color: #5d2afa;
-  box-shadow: 0 0 15px #5d2afa, inset 0 0 15px #5d2afa;
-}
-button:nth-child(2):hover{
-  /*Pink*/
-  color: #ff005b;
-  text-shadow: 0 0 7px #ff005b;
-  border-color: #ff005b;
-  box-shadow: 0 0 15px #ff005b, inset 0 0 15px #ff005b;
-}
-button:nth-child(3):hover{
-  /*Blue*/
-  color: #2196F3;
-  text-shadow: 0 0 7px #2196F3;
-  border-color: #2196F3;
-  box-shadow: 0 0 15px #2196F3, inset 0 0 15px #2196F3;
-}
-/*Animation*/
-@-moz-keyframes fade {
-  40% {
-    opacity: 0.8;
-  }
-  42% {
-    opacity: 0.1;
-  }
-  43% {
-    opacity: 0.8;
-  }
-  45% {
-    opacity: 0.1;
-  }
-  46% {
-    opacity: 0.8;
-  }
-}
-@-webkit-keyframes fade {
-  40% {
-    opacity: 0.8;
-  }
-  42% {
-    opacity: 0.1;
-  }
-  43% {
-    opacity: 0.8;
-  }
-  45% {
-    opacity: 0.1;
-  }
-  46% {
-    opacity: 0.8;
-  }
-}
-@-o-keyframes fade {
-  40% {
-    opacity: 0.8;
-  }
-  42% {
-    opacity: 0.1;
-  }
-  43% {
-    opacity: 0.8;
-  }
-  45% {
-    opacity: 0.1;
-  }
-  46% {
-    opacity: 0.8;
-  }
-}
-@keyframes fade {
-  40% {
-    opacity: 0.8;
-  }
-  42% {
-    opacity: 0.1;
-  }
-  43% {
-    opacity: 0.8;
-  }
-  45% {
-    opacity: 0.1;
-  }
-  46% {
-    opacity: 0.8;
-  }
-}
-</style>
 </head>
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<!--
+    	祝贺出道
+    -->
+    
+    <!--
+    	祝贺出道结束
+    -->
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="agileinfo-dot">
+		<div class="container">
+		<!-- header -->
+		<div class="header-w3layouts"> 
+			<!-- Navigation -->
+			<nav class="navbar navbar-default navbar-fixed-top"> 
+					<div class="navbar-header page-scroll">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+							<span class="sr-only">My_Design</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<h1><a class="navbar-brand" href="index.html">美孟有你 未来可岐</a></h1>
+					</div> 
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navbar-ex1-collapse">
+						<ul class="nav navbar-nav navbar-right cl-effect-15">
+							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+							<li class="hidden"><a class="page-scroll" href="#page-top"></a>	</li>
+							<li><a class="page-scroll scroll" href="#home">首页</a></li>
+							<li><a class="page-scroll scroll" href="#about">关于美岐</a></li>
+							<!--<li><a class="page-scroll scroll" href="#vote">投票通道</a></li>-->
+							<li><a class="page-scroll scroll" href="#wenxuan">岐吹文选 </a></li>
+							<li><a class="page-scroll scroll" href="#portfolio">资源安利</a></li>
+							<li><a class="page-scroll scroll" href="#contact">印象标签</a></li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				<!-- /.container -->
+			</nav>  
+		</div>	
+		<!-- //header -->
 
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Quicksand">
-
-<script src="js/typed.min.js"></script>
-
-<div class="buttons">
-  <button onClick="colorChange(colors[0][0],colors[0][1] )">purple</button>
-  <button onClick="colorChange(colors[2][0], colors[2][1])">Pink</button>
-  <button onClick="colorChange(colors[1][0], colors[1][1])">
-    Blue
-  </button>
+			<div class="w3_banner_info">
+				<div class="w3_banner_info_grid">
+					<h2 style="font-family: '微软雅黑'" data-aos="fade-right">孟美岐 </h2>
+					<h2 data-aos="fade-right"><span style="font-size: 44px">《创造101》练习生</span>.</h2>
+					<h5>1998年10月15日出生于河南洛阳</h5>
+					<p>2016年2月25日，随组合宇宙少女发行首张迷你专辑《WOULD YOU LIKE?》，正式出道。
+				  2018年4月21日，以练习生身份参加腾讯视频女团青春成长节目《创造101》</p>
+					<ul data-aos="slide-up">
+						<li><a href="#" class="w3ls_more" data-toggle="modal" data-target="#myModal">了解更多</a></li>
+						<li><a href="https://weibo.com/meiqi1015?from=feed&loc=at&nick=%E5%88%9B%E9%80%A0101-%E5%AE%87%E5%AE%99%E5%B0%91%E5%A5%B3%E5%AD%9F%E7%BE%8E%E5%B2%90" class="w3ls_more" target="view_window"> 新浪微博</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="thim-click-to-bottom">
+				<a href="#about" class="scroll">
+					<i class="fa fa-arrows-v" aria-hidden="true"></i>
+				</a>
+			</div>
+		</div>
+	</div>
 </div>
-<div id="typedStrings">
-  <p>热烈祝贺</p>
-  <p>孟美岐C位出道！</p>
-</div>
-<span id="span"></span>
+<!-- banner -->
 
+<!-- bootstrap-modal-pop-up -->
+	<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						<h4 class="modal-title">About MeiQi</h4>
+				</div> 
+				<div class="modal-body">
+					<div class="modalpad"> 
+						<div class="modalpop ">
+							<img src="images/1.jpeg" class="img-responsive" alt=""/>
+						</div>
+						<div class="about-modal wthree">
+							<h3>Hi, 她叫 <span>孟美岐</span></h3>
+							<h4>中韩合资组合宇宙少女的成员</h4>
+							<ul class="address">
+								<li>
+									<ul class="agileits-address-text ">
+										<li><b>出生地</b></li>
+										<li>河南洛阳</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="agileits-address-text">
+										<li><b>出生日期 </b></li>
+										<li>1998年10月15日</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="agileits-address-text">
+										<li><b>经纪公司 </b></li>
+										<li>乐华娱乐、STARSHIP Entertainment</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="agileits-address-text">
+										<li><b>星    座 </b></li>
+										<li>天秤座</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="agileits-address-text">
+										<li><b>代表作品 </b></li>
+										<li>MoMoMo、Catch Me、是秘密啊</li>
+									</ul>
+								</li>
+							</ul> 
+						</div> 
+						<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- //modal -->	
+<!-- //bootstrap-modal-pop-up --> 
+
+<!-- about -->
+<div class="about" id="about">
+	<h3 data-aos="zoom-in">About MeiQi</h3>
+	<div class="col-md-6 about-left">
+		<h3 data-aos="slide-up" >PICK ME</h3>
+		<p>孟美岐，外号山支大哥。名字首字母为MMQ，粉丝也称她为毛毛球。大多时候粉丝自称米奇米妮。也有例外。集资的时候，粉丝们自称女兵姐姐，
+			被孟美岐萌到的时候她们自称孟母/孟父，当然有时候她们还会妄自称自己为孟美岐的女朋友/男朋友/老公/老婆。
+			美岐的座右铭是“是金子总会发光”。虽然十分质朴但是她用行动在践行着这句格言。
+				初二赴韩成为练习生。2016年作为宇宙少女成员出道。2018年参加《创造101》被大众发现。</p>
+		<p>这块金子终于发光了。</p>
+		<img src="images/signature.jpg" alt="" />
+	</div>
+	<div data-aos="flip-right" class="col-md-6 about-right">
+		<img src="images/about.jpg" alt="" />
+	</div>
+	<div class="clearfix"></div>
+</div>
+<!-- //about -->
+
+
+
+ 
+ <!-- Portfolio -->
+	<div class="portfolio" id="portfolio">
+		<h3 data-aos="zoom-in" >资源安利</h3>
+		<h6 style="color: #F5F5F5">不完全合集，还有好多放不下了大家自己去发现吧！〃'▽'〃</h6>
+
+		<div class="tabs tabs-style-bar">
+			<nav>
+				<ul>
+					<li><a href="#section-bar-1" class="icon icon-box"><span>经典舞台</span></a></li>
+					<li><a href="#section-bar-2" class="icon icon-display"><span>优秀饭制</span></a></li>
+					<li><a href="#section-bar-3" class="icon icon-upload"><span>搞笑日常</span></a></li>
+					<li><a href="#section-bar-4" class="icon icon-tools"><span>神仙站子</span></a></li>
+				</ul>
+			</nav>
+
+			<div class="content-wrap">
+
+				<!-- Tab-1 -->
+				<section id="section-bar-1" class="agileits w3layouts">
+					<h5 style="font-family: '微软雅黑';font-size: 12px;background-color: #F5F5F5;color:#333333; padding-top: 5px;padding-bottom: 5px;" >📣('ᴗ' )و点击图片跳转</h5>
+					<div class="gallery-grids">
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/5.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/5.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av23042628/?p=2" target="view_window">撑腰</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/p4.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/p4.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av24007432/?p=4" target="view_window">忐忑</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/p5.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/p5.jpg" alt="" class="img-responsive"  >
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av24780908" target="view_window">我就是这种女孩</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/t4.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/t4.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av22708154" target="view_window">乐华娱乐舞台&battle</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/t5.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/t5.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av22857409?from=search&seid=2320568288162033104" target="view_window">平昌冬奥会直拍</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/t6.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/t6.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av23096750" target="view_window">Dreams Come True</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/t7.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/t7.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av8762992/" target="view_window">大牌对王牌 solo</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/t8.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/t8.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av23099363/?p=1" target="view_window">I Need U</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/t9.png" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/t9.png" alt="" class="img-responsive">
+									<figcaption>
+										<h4> <a href="https://www.bilibili.com/video/av23070816/" target="view_window">Catch Me</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</section>
+				<!-- //Tab-1 -->
+
+				<!-- Tab-2 -->
+				<section id="section-bar-2" class="agileits w3layouts">
+					<h4>粉丝们真滴很有才华啊</h4>
+					<div class="gallery-grids">
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/p1.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/f1.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av24449074" target="view_window">成名在望</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/f2.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/f2.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av24919288" target="view_window">应援曲</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/f3.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/f3.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av24678072/" target="view_window">慢慢喜欢你</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/f4.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/f4.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av22226038/" target="view_window">唱歌合集</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/f5.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/f5.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av23079082/" target="view_window">饭拍合集</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/f6.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/f6.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av23284701?from=search&seid=9295541192825301828" target="view_window">点开视频收获爱情！</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/f7.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/f7.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="http://www.miaopai.com/show/YAWbXp1fEwnx6XI5HArRpqczetMR2hgncczdNg__.htm" target="view_window">BREATHE</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/f8.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/f8.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://weibo.com/tv/v/Gl9Otyy4r?fid=1034:4250426003060118" target="view_window">踩点狂魔孟美岐</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/f9.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/f9.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av9390303/" target="view_window"> By the Ocean</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</section>
+				<!-- //Tab-2 -->
+
+				<!-- Tab-3 -->
+				<section id="section-bar-3" class="agileits w3layouts">
+					<h4>地主家的傻鹅子啊</h4>
+					<div class="gallery-grids">
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/p1.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/p1.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av23051339" target="view_window">这可能不是你认识的山支哥</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/p2.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/p2.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av24258358" target="view_window">这可能不是你认识的山支哥【 第二弹】</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/h3.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/h3.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av22851753/" target="view_window">大哥来了！都让让！</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/h4.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/h4.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://weibo.com/tv/v/GlG3U5ADq?fid=1034:dbc997ac6f1b3303b8f0ee77f8d54aaa" target="view_window">"警察局"发音测试</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/h5.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/h5.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://weibo.com/tv/v/GkLVk2Ldr?fid=1034:6ebfcaee0da1ada33da5af4c8add94ec" target="view_window">美岐出没</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+								<a href="images/h6.jpg" class="swipebox">
+									<figure class="effect-bubba">
+										<img src="images/h6.jpg" alt="" class="img-responsive">
+										<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av22935718/" target="view_window">美皮的由来</a></h4>
+										</figcaption>
+									</figure>
+								</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/h7.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/h7.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://www.bilibili.com/video/av22970683/" target="view_window">耍流氓啦</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/h8.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/h8.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4>日常一皮</h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/h9.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/h9.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://weibo.com/tv/v/GhSeBfyAG?fid=1034:2f92dfc102645e171dda7a1843218989" target="view_window">电台音频(温柔预警)</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</section>
+				<!-- //Tab-3 -->
+
+				<!-- Tab-4 -->
+				<section id="section-bar-4" class="agileits w3layouts">
+					<h4>shining star</h4>
+					<div class="gallery-grids">
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/b1.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/b1.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://weibo.com/u/6184037042?from=usercardnew&refer_flag=0000020001_&is_all=1">shining star</a> </h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/b2.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/b2.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://weibo.com/u/6526138237?from=myfollow_group&is_all=1">MiniSkirt</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/b3.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/b3.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://weibo.com/mengmeiqi1015?from=myfollow_group&is_all=1">一顧傾人</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/b4.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/b4.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://weibo.com/u/6545343318?from=myfollow_group&is_all=1#_rnd1530929859233">Secret</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/b5.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/b5.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://weibo.com/u/6545166468?from=myfollow_group&is_all=1#_rnd1530929988391">RisingStar</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/b6.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/b6.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://weibo.com/u/6528339036?refer_flag=1005050006_&is_hot=1#_rnd15309301758510">MEIQI·MOMENT</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/b7.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/b7.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://weibo.com/u/6384381579?refer_flag=1005050006_&is_hot=1#_rnd1530930272651">MeiQi_Meet美岐遇见站</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/b8.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/b8.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://weibo.com/u/5621743643?refer_flag=1005050006_&is_hot=1#_rnd1530930300438">shining_MeiQi</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 gallery-top">
+							<a href="images/b9.jpg" class="swipebox">
+								<figure class="effect-bubba">
+									<img src="images/b9.jpg" alt="" class="img-responsive">
+									<figcaption>
+										<h4><a href="https://weibo.com/u/3217728790?refer_flag=1005050006_&is_all=1">【双人站】一期一会</a></h4>
+									</figcaption>
+								</figure>
+							</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</section>
+				<!-- //Tab-4 -->
+				
+			</div><!-- //Content -->
+		</div><!-- //Tabs -->
+</div>
+<!-- //Portfolio -->
+
+
+
+<!-- contact -->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="col-md-6 contact-left">
+			
+			
+				
+		</div>
+		<!--<div class="col-md-6 contact-right">
+			<div data-aos="flip-down" class="col-md-6 contactright1">
+			<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+			<h4>Location</h4>
+			<p>1680 Richmond St, London, ON N6G 3Y9, Canada</p>
+			</div>
+			<div data-aos="flip-down" class="col-md-6 contactright1">
+			<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+			<h4>Phone</h4>
+			<p>+0(12) 000 123 3120</p>
+			<p>+0(12) 000 123 3121</p>
+			</div>
+			<div class="clearfix"></div>
+			<div data-aos="flip-up"class="col-md-6 contactright1">
+			<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+			<h4>Support</h4>
+			<p><a href="mailto:info@example.com">info@support.com</a></p>
+			</div>
+			<div data-aos="flip-up" class="col-md-6 contactright1">
+			<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+			<h4>Mail</h4>
+			<p><a href="mailto:info@example.com">info@example.com</a></p>
+			<p><a href="mailto:info@example.com">info@example1.com</a></p>
+			</div>
+			<div class="clearfix"></div>-->
+			<!--<ul class="top-links">
+				<li data-aos="flip-right"><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li data-aos="flip-right"><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li data-aos="flip-right"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				<li data-aos="flip-right"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			</ul>-->
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //contact -->
+<!--
+	文选
+-->
+
+	
+
+			
+
+	<div class="container" id="wenxuan">
+	<h1 style="color: #FFFFFF;text-align: center;background-color:#5f4b8b ;margin-bottom: 20px;margin-top: 0;padding: 20px;">岐吹文选</h1>
+	<div class="gallery" style="background-color:#f5bbc5 ;">
+		<div><a href="wenxuan.html" style="text-align: center;"><img src="img/gallery/1.png" / align="center" style="width: 40%; margin-left: 30%;margin-bottom: 20px;"></a></div>
+			</div>
+	<div class="clear"></div>
+
+
+
+
+<!--
+文选结束
+-->
+<!-- map -->
+<div class="map">
+	<h3 data-aos="zoom-in" >标签</h3>
+	<div class="md-modal md-effect-1" id="modal-1">
+			<div class="md-content">
+				<h3>·山支大哥·</h3>
+				<div>
+					<p style="color: #6E75A4;">美岐在节目中提到自己的外号是山支欧巴，大哥</p>
+					<ul>
+						<li>自从美岐上了节目之后，爆出外号“山支大哥”，从此流传开来</li>
+							<li>美岐本人也很喜欢粉丝这样叫她</li>
+							<li>美岐爸爸曾在节目中提到“我还没成为大哥你就先当上大哥了”</li>
+					</ul>
+					<button class="md-close"><span class="caption" style="font-family: '微软雅黑'">关闭</span></button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-2" id="modal-2">
+			<div class="md-content">
+				<h3>舞蹈机器</h3>
+				<div>
+					<p style="color: #6E75A4;">可带劲了！</p>
+					<ul>
+						<li>美岐的舞蹈很棒，跳舞有力，是宇宙少女中的舞蹈担当</li>
+						<li>团综当中成员介绍的时候提到美岐是“dance machine”</li>
+						
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-3" id="modal-3">
+			<div class="md-content">
+				<h3>笑点成谜</h3>
+				<div>
+					<p style="color: #6E75A4;">盒盒盒盒盒盒盒盒盒盒盒盒</p>
+					<ul>
+						<li>美岐在各种综艺当中总是展现出奇怪的笑点</li>
+						<li>并不是笑点低，而是怪，别人不觉得好笑的地方她快要笑断气了</li>
+						<li>其实笑点也挺低</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-4" id="modal-4">
+			<div class="md-content">
+				<h3>喜欢文科</h3>
+				<div>
+					<p style="color: #6E75A4;">还是当纪委吧这位同学</p>
+					<ul>
+						<li>美岐在采访中提到自己更喜欢文科</li>
+						<li>但是美岐的语文啊……请大家多多包涵！</li>
+						<li>粉丝投票美岐适合体育委员（doge脸）</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-5" id="modal-5">
+			<div class="md-content">
+				<h3>完表主义者</h3>
+				<div>
+					<p style="color: #6E75A4;">中韩转换系统偶尔混乱</p>
+					<ul>
+						<li>大哥在节目中概括自己是“完表主义者”</li>
+						<li>在韩语中完美的发音接近完表，此处是美岐中韩语言转换混乱的一个口误</li>
+						<li>原视频指路：<a href="https://www.bilibili.com/video/av22575399/" target="view_window">B站链接</a></li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-6" id="modal-6">
+			<div class="md-content">
+				<h3>选择恐惧症</h3>
+				<div>
+					<p style="color: #6E75A4;">好了知道你是天秤座了</p>
+					<ul>
+						<li>美岐不止一次提到自己有选择恐惧症</li>
+						<li>但是每次做出的选择都很靠谱</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-7" id="modal-7">
+			<div class="md-content">
+				<h3>洁癖</h3>
+				<div>
+					<p style="color: #6E75A4;">不能确定是否存在</p>
+					<ul>
+						<li>美岐说自己有洁癖，团综里成员LUDA用手拿食物给美岐遭到美岐嫌弃</li>
+						<li>结果还是吃下去了嘛</li>
+						<li>对不同的人美岐展现出了不同的洁癖程度</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-8" id="modal-8">
+			<div class="md-content">
+				<h3>不撩妹就是一种撩妹</h3>
+				<div>
+					<p style="color: #6E75A4;">出处和完表主义者同一个视频</p>
+					<ul>
+						<li>节目中美岐自己谈到自己“不撩妹就是一种撩妹”</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-9" id="modal-9">
+			<div class="md-content">
+				<h3>美皮(meipi)</h3>
+				<div>
+					<p style="color: #6E75A4;">出处在搞笑日常那一栏放了相信大家能看到：）</p>
+					<ul>
+						<li>宇宙少女成员恩熙自信满满地把美岐的名字拼成了Mei Pi</li>
+						<li>于是美岐又有了一个外号</li>
+						<li>美皮</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-10" id="modal-10">
+			<div class="md-content">
+				<h3>萧山F4</h3>
+				<div>
+					<p style="color: #6E75A4;">在豆瓣和微博流传着，具体出处我也不太清楚</p>
+					<ul>
+						<li>节目《创造101》的录制地点在萧山</li>
+						<li>由4个有少年感的选手组成</li>
+						<li>孟美岐就是其中之一</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-11" id="modal-11">
+			<div class="md-content">
+				<h3>重感情</h3>
+				<div>
+					<p style="color: #6E75A4;">只是个19岁的爱哭鬼啊</p>
+					<ul>
+						<li>美岐十分重感情，是个很感性的人</li>
+						<li>在《创造101》中哭了很多次</li>
+						<li>内心十分柔软，很容易被感动</li>
+						<li>团综里比赛赢了都能哭</li>
+						
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-12" id="modal-12">
+			<div class="md-content">
+				<h3>土味情话</h3>
+				<div>
+					<p style="color: #6E75A4;">虽然不是原创，但是美岐确实带了一波</p>
+					<ul>
+						<li>在《创造101》中对选手讲了土味情话</li>
+						<li>“我觉得你今天有点怪”“怪好看的”</li>
+						<li>导致粉丝还要求美岐说几句土味情话</li>
+						<li>甚至粉丝还送了一本自己编写的《情话大全》</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-13" id="modal-13">
+			<div class="md-content">
+				<h3>自拍水平成谜</h3>
+				<div>
+					<p style="color: #6E75A4;">我没有嫌弃的意思！</p>
+					<ul>
+						<li>自拍不如他拍好看</li>
+						<li>但是还是好看的</li>
+						<li>自拍的角度也很迷</li>
+						<li>还特别热爱比心</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-14" id="modal-14">
+			<div class="md-content">
+				<h3>喜欢戴帽子</h3>
+				<div>
+					<p style="color: #6E75A4;">是是是非常swag了</p>
+					<ul>
+						<li>粉丝提问：为什么喜欢戴帽子？是因为没洗头吗？</li>
+						<li>岐岐：我不是我没有！我每天都洗的！</li>
+						<li>岐岐：因为戴帽子是一种swag！</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-15" id="modal-15">
+			<div class="md-content">
+				<h3>不爱撒娇</h3>
+				<div>
+					<p style="color: #6E75A4;">可是明明就很可爱啊！</p>
+					<ul>
+						<li>在采访中被粉丝要求撒娇</li>
+						<li>美岐：是亲粉不？不知道大哥不爱做这个啊！（大碴子味）</li>
+						<li>最后哭着脸撒了个娇（激萌）</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-16" id="modal-16">
+			<div class="md-content">
+				<h3>Modal Dialog</h3>
+				<div>
+					<p>This is a modal window. You can do the following things with it:</p>
+					<ul>
+						<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+						<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+						<li><strong>Close:</strong> click on the button below to close the modal.</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-17" id="modal-17">
+			<div class="md-content">
+				<h3>Modal Dialog</h3>
+				<div>
+					<p>This is a modal window. You can do the following things with it:</p>
+					<ul>
+						<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+						<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+						<li><strong>Close:</strong> click on the button below to close the modal.</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-18" id="modal-18">
+			<div class="md-content">
+				<h3>Modal Dialog</h3>
+				<div>
+					<p>This is a modal window. You can do the following things with it:</p>
+					<ul>
+						<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+						<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+						<li><strong>Close:</strong> click on the button below to close the modal.</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-19" id="modal-19">
+			<div class="md-content">
+				<h3>Modal Dialog</h3>
+				<div>
+					<p>This is a modal window. You can do the following things with it:</p>
+					<ul>
+						<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+						<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+						<li><strong>Close:</strong> click on the button below to close the modal.</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="md-modal md-effect-20" id="modal-20">
+			<div class="md-content">
+				<h3>Modal Dialog</h3>
+				<div>
+					<p>This is a modal window. You can do the following things with it:</p>
+					<ul>
+						<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+						<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+						<li><strong>Close:</strong> click on the button below to close the modal.</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<!-- Top Navigation -->
+			
+			<header>
+				<h1>关于美岐的标签和印象 <span>大部分来自微博，仅供娱乐〃'▽'〃</span></h1>
+			</header>
+			<div class="main clearfix">
+				<div class="column">
+					<p>我个人反对通过贴标签了解一个人，但是对艺人来说这是了解她的快捷途径。希望大家可以娱乐一下，权当是梗来搞笑调侃，切勿当真。一直陪伴着她才是了解她的合理方式。(◍•ᴗ•◍)</p>
+				</div>
+				<div class="column">
+					<button class="md-trigger" data-modal="modal-1" ><span class="caption" style="font-family: '微软雅黑'">山支大哥</span></button>
+					<button class="md-trigger" data-modal="modal-2"><span class="caption" style="font-family: '微软雅黑'">舞蹈机器</span></button>
+					<button class="md-trigger" data-modal="modal-3"><span class="caption" style="font-family: '微软雅黑'">笑点成迷</span></button>
+					<button class="md-trigger" data-modal="modal-4"><span class="caption" style="font-family: '微软雅黑'">喜欢文科</span></button>
+					<button class="md-trigger" data-modal="modal-5"><span class="caption" style="font-family: '微软雅黑'">完表主义者</span></button>
+					<button class="md-trigger" data-modal="modal-6"><span class="caption" style="font-family: '微软雅黑'">选择恐惧症</span></button>
+					<button class="md-trigger" data-modal="modal-7"><span class="caption" style="font-family: '微软雅黑'">（孟定谔的）洁癖</span></button>
+					<button class="md-trigger" data-modal="modal-8"><span class="caption" style="font-family: '微软雅黑'">不撩妹就是一种撩妹</span></button>
+					<button class="md-trigger" data-modal="modal-9"><span class="caption" style="font-family: '微软雅黑'">美皮</span></button>
+					<button class="md-trigger" data-modal="modal-10"><span class="caption" style="font-family: '微软雅黑'">萧山F4</span></button>
+					<button class="md-trigger" data-modal="modal-11"><span class="caption" style="font-family: '微软雅黑'">重感情</span></button>
+					<button class="md-trigger" data-modal="modal-12"><span class="caption" style="font-family: '微软雅黑'">土味情话</span></button>
+					<button class="md-trigger" data-modal="modal-13"><span class="caption" style="font-family: '微软雅黑'">自拍水平成谜</span></button>
+					<button class="md-trigger" data-modal="modal-14"><span class="caption" style="font-family: '微软雅黑'">喜欢戴帽子</span></button>
+					<button class="md-trigger" data-modal="modal-15">不爱撒娇</button>
+				</div>
+			</div>
+		</div><!-- /container -->
+		<div class="md-overlay"></div><!-- the overlay element -->
+
+		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script src="js/modalEffects.js"></script>
+
+		<!-- for the blur effect -->
+		<!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+		<script>
+			// this is important for IEs
+			var polyfilter_scriptpath = '/js/';
+		</script>
+		<script src="js/cssParser.js"></script>
+		<script src="js/css-filters-polyfill.js"></script>
+	
+</div>
+<!-- //map -->
+
+<!-- copyright -->
+<div class="copyright-agile">
+	<div class="container">
+		<h4>最后再说几句…</h4>
+		<p>做这个是一时兴起，没有问过授权的我基本没有做二次修改也尽量引流到源地址。如果有授权问题我会修改的。</p><p>欢迎随手甩链接放安利！(´▽｀)ノ♪</p>
+		 <p>| Design by <a href="https://weibo.com/1785800025/profile?topnav=1&wvr=6&is_all=1">韦一圈</a></p>
+		<p>部分图片来源：<a href="https://twitter.com/WJSN_Stars">shining star | </a><a href="https://weibo.com/u/6528339036?is_hot=1">MEIQI·MOMENT_孟美岐 | </a>对不起太多了我放不完！表情包出处也找不到…
+		<p></p>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- copyright -->
+
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!-- //js -->
+
+<!-- Gallery-Tab-JavaScript -->
+			<script src="js/cbpFWTabs.js"></script>
+			<script>
+				(function() {
+					[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+						new CBPFWTabs( el );
+					});
+				})();
+			</script>
+<!-- //Gallery-Tab-JavaScript -->
+	<!-- Swipe-Box-JavaScript -->
+			<script src="js/jquery.swipebox.min.js"></script> 
+				<script type="text/javascript">
+					jQuery(function($) {
+						$(".swipebox").swipebox();
+					});
+			</script>
+		<!-- //Swipe-Box-JavaScript -->
+
+<!-- Scrolling Nav JavaScript --> 
+    <script src="js/scrolling-nav.js"></script>  
+<!-- //fixed-scroll-nav-js --> 
+
+<script src="js/index.js"></script><!-- skills bars JS FILE-->
+	
+<!-- animation effects-js files-->
+	<script src="js/aos.js"></script><!-- //animation effects-js-->
+	<script src="js/aos1.js"></script><!-- //animation effects-js-->
+<!-- animation effects-js files-->
+
+<!-- //here starts scrolling icon -->
+<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling script -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling script -->
+<!-- //here ends scrolling icon -->
+
+<!-- scrolling script -->
 <script type="text/javascript">
-$("#span").typed({
-  stringsElement: $("#typedStrings"),
-  typeSpeed: 70,
-  showCursor: false,
-  contentType: "html"
-});
-var colors = [["green","#00E676"], ["blue","#2196F3"], ["pink", "#ff005b"]];
-var randomColor = colors[Math.floor(Math.random() * colors.length)];
-var initialColor = randomColor[0];
-var initialHeartColor = randomColor[1];
-function colorChange(color, heart){
-  $('#span').attr('class', '').addClass(color);
-  $('body p i').css('color', initialHeartColor);
-  $('body p i').css('color', heart);
-}
-colorChange(initialColor);
-</script>
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<!-- //scrolling script -->
+<!--
+	滚动弹幕开始
+-->
 
-<button ><a href="index2.html">关闭</a></button>
+<!--弹幕结束-->
+
 </body>
 </html>
